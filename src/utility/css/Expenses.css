@@ -1,0 +1,80 @@
+.nav{
+  margin: 20px 0px 0px 20px; 
+  width: 40%;
+}
+.exp, .category{
+  padding: 10px;
+  border-radius: 10px ;
+  margin: 10px;
+  border: 0px;
+}
+
+.category{
+  margin-left: 25px;
+  width: 42%;
+}
+
+span{
+  font-size: 20px;
+  margin: 10px;
+  color: white;
+}
+
+.btn-expense{
+  width: 50%;
+  padding: 15px;
+  margin: 20px 30px 20px 40px;
+  background-color: burlywood;
+  border-radius: 20px ;
+  border: 0px;
+}
+
+.btn-expense:hover{
+  background-color: black;
+  color: aliceblue;
+}
+
+.expense{
+  display: flex;
+  width: 100%;
+  border: 0px solid black;
+  background-color: #302c2c;
+}
+
+#balance{
+  margin-top: 20px;
+  margin-left: 20px;
+  color: white;
+}
+
+#detail-expesne{
+  margin:20px 0px 10px 20px;
+  border: 2px solid azure;
+  border-radius: 5px ;
+  display: none;
+}
+
+.ExpenseDetail{
+  text-align: center;
+}
+
+.horizTranslate {
+  -webkit-transition: 3s;
+  -moz-transition: 3s;
+  -ms-transition: 3s;
+  -o-transition: 3s;
+  transition: 3s;
+  margin-left: 10% !important;
+}
+
+#bal:hover{
+  font-size: 100px;
+  color: aqua;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.custom {
+  background-color: #302c2c;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
